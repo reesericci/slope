@@ -6,12 +6,18 @@
     <script src="UnityLoader.js"></script>
     <!-- -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
     <!-- -->
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "slope_new.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
     </script>
   </head>
   <body>
+    <div class="alert alert-primary" role="alert">
+  :) - Cooper
+  </div>
     <div class="webgl-content">
         <div id="gameContainer" style="width: 100%; height: 100%; margin: auto;"></div>
             <div style="position: absolute; bottom: 1vh; left: 1vw;" class="fullscreen" onclick="gameInstance.SetFullscreen(1)">
