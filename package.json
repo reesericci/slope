@@ -1,0 +1,22 @@
+{
+  "name": "slope",
+  "version": "1.0.0",
+  "description": "",
+  "main": "UnityLoader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CooperSma/slope.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CooperSma/slope/issues"
+  },
+  "homepage": "https://github.com/CooperSma/slope#readme",
+  "dependencies": {
+    "netlify": "^8.0.1"
+  }
+}
