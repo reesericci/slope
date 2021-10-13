@@ -8,6 +8,14 @@ if((event.key == "q" || event.key == "Q") && event.altKey) {
   document.write()
   window.location = "https://aisdblend.instructure.com"
 }
+} else if ((event.key == "ctrl") && quickHideEnabled == true) {
+  document.write()
+  window.location = "https://aisdblend.instructure.com"
+}
+} else if ((event.key == "shift") && quickHideEnabled == true) {
+  document.write()
+  window.location = "https://aisdblend.instructure.com"
+}
 })
 
 
